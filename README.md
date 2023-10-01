@@ -1,71 +1,57 @@
-# Getting Started with Create React App
+# Documentação do Projeto Lista de Compras
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Desenvolvedor
 
-## Available Scripts
+- Nome: Guilherme Braga
+- LinkedIn: [Guilherme de Almeida Braga](https://www.linkedin.com/in/guilherme-de-almeida-braga/)
 
-In the project directory, you can run:
+## Descrição do Projeto
 
-### `npm start`
+Este projeto é uma aplicação web desenvolvida em React que permite aos usuários criar e gerenciar listas de compras. A aplicação é dividida em várias telas, incluindo login, seleção de supermercado, seleção de itens de compra e uma lista de itens com cálculos dinâmicos de total.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Tela de Login: Os usuários podem fazer login com seu nome e email.
+- Tela de Supermercado: Os usuários podem escolher o supermercado e definir um orçamento disponível.
+- Tela de Itens Selecionados: Os usuários podem selecionar itens de compra.
+- Tela de Lista de Itens: Exibe a lista de itens selecionados, permitindo que os usuários insiram valores e quantidades para calcular o total.
+- Verificação de Orçamento: O aplicativo verifica se o valor total da compra ultrapassa o orçamento definido e exibe uma mensagem, se necessário.
 
-### `npm test`
+## Configuração do Ambiente de Desenvolvimento
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Certifique-se de ter o Node.js e o npm instalados em seu sistema. Você pode verificar a instalação executando `node -v` e `npm -v`.
 
-### `npm run build`
+Para configurar o ambiente de desenvolvimento, siga os seguintes passos:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone o repositório do projeto: `git clone <URL_DO_REPOSITORIO>`
+2. Navegue até o diretório do projeto: `cd lista-de-compras-app`
+3. Instale as dependências: `npm install`
+4. Inicie o aplicativo localmente: `npm start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tecnologias Utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React
+- JavaScript
+- CSS
+- react-router-dom (para navegação)
+- Redux (gerenciamento de estado)
 
-### `npm run eject`
+## Como Contribuir
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Se você deseja contribuir para este projeto, siga estas etapas:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Fork o repositório.
+2. Crie uma nova branch para sua contribuição: `git checkout -b minha-contribuicao`
+3. Faça as alterações desejadas.
+4. Faça commit das alterações: `git commit -m "Adicionei/Corrigi/Fiz alguma coisa"`
+5. Envie as alterações para o seu repositório fork: `git push origin minha-contribuicao`
+6. Crie uma pull request no repositório original.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Licença
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Este projeto é distribuído sob a licença [MIT](LICENSE).
 
-## Learn More
+## Contato
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Para entrar em contato com o desenvolvedor, visite o perfil no LinkedIn: [Guilherme de Almeida Braga](https://www.linkedin.com/in/guilherme-de-almeida-braga/).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# app-lista-de-compras
